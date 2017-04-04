@@ -1,0 +1,31 @@
+{
+  "name": "jquery-screen-ratio",
+  "version": "0.0.1",
+  "homepage": "https://github.com/FCOO/jquery-screen-ratio",
+  "authors": [
+    "Niels Holt"
+  ],
+  "description": "",
+  "main": [
+    "dist/jquery-screen-ratio.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FCOO/jquery-screen-ratio.git"
+  },
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "devDependencies": {},
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "moduleType": [
+    "es6"
+  ]
+}
