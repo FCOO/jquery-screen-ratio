@@ -3,7 +3,7 @@
 
 
 ## Description
-Add methods to jQuery.prototype to keep the element in same width-height-ratio as the screen
+Add methods to jQuery.prototype to keep the element in same width-height-ratio as the window or the screen
 
 ## Installation
 ### bower
@@ -13,11 +13,17 @@ Add methods to jQuery.prototype to keep the element in same width-height-ratio a
 http://FCOO.github.io/jquery-screen-ratio/demo/ 
 
 ## Usage
-```$myElement.screenRatio( 120 );```
+```$myElement.windowRatio( 60, 100 );```
+```$myOtherElement.screenRatio( 120 );```
 
 ### Methods
 
-    jQuery.fn.screenRatio(  minDimention ); //minDimention = the minimum width or height of the element
+    jQuery.fn.windowRatio(  minDimention [,maxDimention] ); 
+    //minDimention = the minimum width or height of the element. 
+    //maxDimention (optional) = the maximum dimention of the element
+
+    jQuery.fn.screenRatio(  minDimention ); 
+    //minDimention = the minimum width or height of the element
 
 
 ## Copyright and License
